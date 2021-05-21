@@ -1,0 +1,58 @@
+
+body
+
+{
+    background: linear-gradient(90deg, black 40%, cornflowerblue 100%);
+    padding: 15px;
+    font-family: 'Arial Narrow', Arial, sans-serif
+}
+
+#menu 
+
+{
+    background-color: #000;
+}
+
+#menu ul
+
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li
+
+{
+    display: inline-block;
+    position: relative;
+    left: 20px;
+}
+
+#menu ul li a
+
+{
+    color: rgb(224, 86, 116);
+    display: block;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+
+#menu ul li a:hover{
+
+    color: #347d91;
+    transition: all .3s;
+    border: 1px solid rgb(43, 76, 226);
+    background-color: #3bc5cf;
+    box-shadow: rgb(35, 35, 44) 2px 2px;
+}
+
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif  ;
+}
+
+h1
+
+{
+  background-color: linear-gradient(cornflowerblue);
+}

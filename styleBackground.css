@@ -1,0 +1,99 @@
+
+.colorFont
+
+{
+    background: linear-gradient(160deg, black 40%, cornflowerblue 100%);
+}
+
+#menu 
+
+{
+    background-color: #000;
+}
+
+#menu ul
+
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li
+
+{
+    display: inline-block;
+    position: relative;
+}
+
+#menu ul li a
+
+{
+    color: rgb(224, 86, 116);
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+#menu ul li a:hover{
+
+    color: #347d91;
+    transition: all .3s;
+    border: 1px solid rgb(43, 76, 226);
+    background-color: #3bc5cf;
+}
+
+.item-r 
+
+{
+    float: left;
+}
+
+#menu
+
+{
+    width: 150px;
+    left: 20px;
+    margin: 5rem auto;
+    display: inline-block;
+}
+
+li, .rigth 
+
+{
+    width: 150px;
+}
+
+.container
+
+{
+  cursor: pointer;
+}
+
+h4, p
+
+{
+    color: rgb(194, 186, 197);
+}
+
+h4
+
+{
+    text-align: center;
+}
+
+.centrado, p
+
+{
+    background: linear-gradient(160deg, black 40%, cornflowerblue 100%);
+    margin: 2rem auto;
+    width: 800px;
+    vertical-align: top;
+    display: inline-block;
+    -float: center;
+    right: 2000px;
+    background-color: cornflowerblue;
+    box-shadow: rgb(65, 65, 78) 4px 4px;
+    border: 1px solid rgb(54, 75, 167);
+    transition: all .3s;
+}

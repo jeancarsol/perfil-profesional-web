@@ -1,0 +1,174 @@
+
+* 
+{
+  margin: 0;
+  padding: 0;
+}
+
+body
+
+{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: -webkit-radial-gradient(#560e86, #0a0011);
+}
+
+.container span 
+
+{
+  font-size: 120pt;
+  font-weight: bold;
+  position: relative;
+  font-family: "Fredoka One";
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  top: -42px;
+}
+
+.container span::before 
+
+{
+  content: var(--l);
+  position: absolute;
+  transform: scale(1.1);
+  filter: blur(15px);
+}
+
+.container span::after 
+
+{
+  content: var(--l);
+  position: absolute;
+  height: 200%;
+  width: 300px;
+  top: 80%;
+  left: 0;
+  filter: blur(30px);
+  transform: rotateX(50deg);
+}
+
+.container span:hover 
+
+{
+  filter: contrast(250%);
+}
+
+.container span:nth-child(1) 
+
+{
+  color: #00bef8;
+}
+
+.container span:nth-child(2)
+
+{
+  color: #ff0697;
+}
+
+.container span:nth-child(3) 
+
+{
+  color: #ff4d00;
+}
+
+.container span:nth-child(4) 
+
+{
+  color: #ffe600;
+}
+
+.container span:nth-child(5) 
+
+{
+  color: #bb00ff;
+}
+
+body
+
+{
+    background: linear-gradient(180deg, black 50%, cornflowerblue 100%);
+    padding: 15px;
+    font-family: 'Arial Narrow', Arial, sans-serif
+}
+
+.img
+
+{
+    width: 220px;
+    height: 200px;
+    right: 350px;
+    top: 150px;
+    position: absolute;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 10px 5px #c3c5c9;   
+}
+		
+#menu 
+
+{
+    background-color: #000;
+    box-shadow: rgb(52, 52, 61) 5px 5px;
+}
+
+#menu ul
+
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li
+
+{
+    display: inline-block;
+    position: relative;
+    left: 20px;
+}
+
+#menu ul li a
+
+{
+    color: rgb(224, 86, 116);
+    display: block;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+
+#menu ul li a:hover{
+
+    color: #347d91;
+	  transition: all .3s;
+    border: 1px solid rgb(43, 76, 226);
+    background-color: #3bc5cf;
+}
+
+
+.item-r 
+
+{
+    float: right;
+}
+
+#menu
+
+{
+    width: 1500px;
+    left: 2400px;
+
+}
+
+li, .rigth 
+
+{
+    width: 150px;
+}
+
+.container
+
+{
+  cursor: pointer;
+}
